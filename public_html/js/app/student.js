@@ -3,8 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-App.StudentView = Backbone.View.extend({
-    
+App.Student = Backbone.Model.extend({
+    defaults: {
+        name: '',
+        session: '1st session',
+        email: 'email'
+    }
 });
 
 

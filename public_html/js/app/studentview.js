@@ -4,6 +4,8 @@
  * and open the template in the editor.
  */
 App.StudentView = Backbone.View.extend({
+    el: '#students',
+    
     
 });
 
